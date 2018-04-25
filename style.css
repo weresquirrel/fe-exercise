@@ -209,11 +209,17 @@ body {
 a {
   text-decoration: none;
   letter-spacing: 3.5px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #3e4544; }
+
+button {
+  border: none;
+  outline: none; }
 
 header {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-top: 60px; }
   header h1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -222,20 +228,48 @@ header {
     header h1 img {
       width: 228px;
       height: auto;
-      margin: auto; }
+      margin: auto;
+      margin-bottom: 27px; }
     header h1 p {
       font-size: 22px;
+      font-weight: 300;
       margin: 0; }
+  header .insta,
+  header .menu {
+    width: 30px;
+    height: 30px; }
+  header .insta {
+    background: url(assets/img/instagram.svg) no-repeat; }
+  header .menu {
+    background: url(assets/img/hamburger.svg) no-repeat;
+    background-size: cover; }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%; }
+  main nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    main nav ul li {
+      font-size: 30px;
+      line-height: 1.5;
+      letter-spacing: 3.5px; }
 
 footer {
-  height: 138px;
-  align-self: flex-end;
-  flex-direction: column;
+  height: 136px;
+  position: absolute;
+  bottom: 0;
   width: 100%; }
   footer ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
+    align-items: center;
+    height: 100%;
     justify-content: space-evenly; }
 
 /*# sourceMappingURL=style.css.map */

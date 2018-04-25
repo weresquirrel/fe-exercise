@@ -10,6 +10,26 @@
 
  @import 'variables';
 
+
 body {
   background: $brown;
+  color: $grey;
+  font-family: $brand-font;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: $airy-letters;
+  text-transform: uppercase;
+}
+
+footer {
+  height: 138px;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+  }
 }

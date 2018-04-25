@@ -8,12 +8,23 @@
 	This should compile to the root of the project.
 
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* –––––––––––––––––––––––––––––––––––––––––––––––––– *\
- *
- * Variables
- *
- * –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url("https://fonts.googleapis.com/css?family=Tajawal:300");
 body {
-  background: #b89882; }
+  background: #b89882;
+  color: #3e4544;
+  font-family: "Tajawal", sans-serif;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  letter-spacing: 3.5px;
+  text-transform: uppercase; }
+
+footer {
+  height: 138px; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

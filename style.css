@@ -198,13 +198,23 @@ input[type="checkbox"], input[type="radio"] {
   padding: 0; }
 
 body {
-  background: #b89882;
+  background-color: #b89882;
   color: #3e4544;
   font-family: "Tajawal", sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
   height: 100%; }
+  body.house-bg {
+    background: url(assets/img/placeholder-01.jpg) no-repeat fixed center;
+    background-size: cover; }
+  body.beach-bg {
+    background: url(assets/img/placeholder-02.jpg) no-repeat fixed center;
+    background-size: cover; }
+  body.white {
+    color: #fff; }
+    body.white a {
+      color: #fff; }
 
 a {
   text-decoration: none;
@@ -235,13 +245,16 @@ header {
       font-weight: 300;
       margin: 0; }
   header .insta,
-  header .menu {
+  header button {
     width: 30px;
     height: 30px; }
   header .insta {
     background: url(assets/img/instagram.svg) no-repeat; }
-  header .menu {
+  header .hamburger {
     background: url(assets/img/hamburger.svg) no-repeat;
+    background-size: cover; }
+  header .cross {
+    background: url(assets/img/cross.svg) no-repeat;
     background-size: cover; }
 
 main {
@@ -249,6 +262,8 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100%; }
+  main nav.off {
+    display: none; }
   main nav ul {
     list-style: none;
     padding: 0;
